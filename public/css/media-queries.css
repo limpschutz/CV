@@ -372,7 +372,66 @@
 
 }
 
+@media print
+{
+  img, header nav, .scrolldown, .social, .download, #contact, footer {
+    display: none;
+  }
 
+  header nav {
+    display: none !important;
+  }
+
+  header .banner-text h1 {
+    font-size: 40pt !important;
+  }
+
+  html, body {
+    width: 210mm;
+    height: 297mm;
+    background: #fff;
+  }
+
+  #about{
+    background: #fff
+  }
+
+  #about h2{
+    color: initial;
+  }
+
+  #resume {
+    page-break-before: always;
+  }
+
+  #portfolio {
+    page-break-before: auto;
+    background: #fff;
+  }
+
+  #portfolio h1 {
+    color: initial;
+    font: 18px/24px 'opensans-bold', sans-serif;
+  }
+
+  .bars li, .skill{
+    height: 15px;
+  }
+
+  .portfolio-item .item-wrap .overlay {
+    position: relative;
+    opacity: 1;
+  }
+
+  .portfolio-item .item-wrap img, .profile-pic {
+    display: block;
+  }
+
+  @page {
+    size: A4;
+    margin: 0cm;
+    }
+}
 
 
 

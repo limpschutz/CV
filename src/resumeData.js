@@ -1,4 +1,4 @@
-{
+let data = {
   "main": {
     "name":"Linus Petersson",
     "occupation":"Software Developer",
@@ -7,8 +7,8 @@
     "bio2":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "bio": "I am a [age] year old father of 2 born and raised in the deep woods of Småland. I have always been interested in all kinds of technology, from big machines to the smallest software, and quickly fell in love with the internet. I have a Bachelor degree in Computer Sciences as has since then worked as a software developer at Flygprestanda AB.",
     "contactmessage":"Questions? Feel free to contact me.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "linus.petersson@mail.com",
+    "phone": "+4672324518",
     "address":{
       "street":"Rudbecksgatan 122",
       "city":"Malmö",
@@ -133,3 +133,5 @@
     ]
   }
 }
+
+export default data;
