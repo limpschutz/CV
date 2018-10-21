@@ -67,6 +67,7 @@ class Contact extends Component {
 			</div>
 
 
+			{this.props.showContactData && 
 			<aside className="four columns footer-widgets">
 				<div className="widget widget_contact">
 
@@ -77,7 +78,7 @@ class Contact extends Component {
 						{zip} {city}, {state}<br />
 					</p>
 				</div>
-			</aside>
+			</aside>}
       </div>
    </section>
     );

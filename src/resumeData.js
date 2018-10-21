@@ -16,8 +16,7 @@ let data = {
       "zip": "21620"
     },
     "birthday":"1984-09-19",
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"./LinusPetersson_CV.pdf",
     "social":[
       {
         "name":"facebook",
