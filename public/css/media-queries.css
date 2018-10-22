@@ -390,8 +390,7 @@
   }
 
   html, body {
-    width: 210mm;
-    height: 297mm;
+
     background: #fff;
   }
 
@@ -401,6 +400,11 @@
 
   #about h2{
     color: initial;
+  }
+
+  #about .profile-pic {
+    width: 114px;
+    height: 114px;
   }
 
   #resume {
@@ -426,7 +430,7 @@
     opacity: 1;
   }
 
-  .portfolio-item .item-wrap img, .profile-pic {
+  .portfolio-item .item-wrap img, #about .profile-pic {
     display: block;
   }
 
