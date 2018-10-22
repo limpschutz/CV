@@ -116,6 +116,12 @@ let data = {
         "category":"Internet radio channel website done pre university. Implemented in Wordpress",
         "image":"radio50plus.jpg",
         "url":"https://www.radio50plus.se"
+      },
+      {
+        "title":"AngelstadBolmen.se",
+        "category":"Webpage for the parish of my home village. Built from scratch with HTML and Bootstrap.",
+        "image":"angelstad.jpg",
+        "url":"https://www.angelstadbolmen.se"
       }
     ]
   },
